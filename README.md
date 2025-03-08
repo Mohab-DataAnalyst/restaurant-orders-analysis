@@ -26,14 +26,31 @@
 
 
 
-
 ## 🛠️ Technology Used
 
 
 - 🗄️ SQL (MySQL) – Used for exploratory data analysis and querying restaurant order trends.
 
 
-## 📎 Acknowledgments
+## 📌 Getting Started  
+
+### 🔧 Requirements  
+- MySQL database system  
+- MySQL IDE (e.g., MySQL Workbench, DBeaver)  
+- `restaurant_db` database with `menu_items` and `order_details` tables  
+
+### ▶️ How to Run  
+1. Open your MySQL IDE and connect to your database.  
+2. Ensure `restaurant_db` is set up with the required tables.  
+3. Run the following command to select the database:  
+   ```sql
+   USE restaurant_db;
+   ```  
+4. Execute the SQL queries in sequence to explore and analyze the data.
+
+
+
+## 📎 Acknowledgements
 
  - This project was inspired by [@Maven Analytics.](https://youtu.be/JaUKDbCXMX4?si=9X8ovQFzNWCcjOn3)
  - Dataset [here.](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&pageSize=10&search=restaurant%20Orders)
